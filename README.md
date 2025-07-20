@@ -1,5 +1,16 @@
 # US-Visa-Prediction-Project
 
+A machine learning project to predict US visa certification status, incorporating MLOps practices for experiment tracking and model demonstration.
+
+## Project Overview 
+This project analyzes historical data of visa applications to build a classification model that can predict whether a visa will be 'Certified' or 'Denied'. The goal is to assist the Office of Foreign Labor Certification (OFLC) by automating the initial screening process, thereby increasing efficiency. The project utilizes MLflow for experiment tracking and Gradio for creating an interactive demo of the final model.
+
+## Tech Stack 
+
+- **Languages:** Python
+- **Libraries:** Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
+- **MLOps Tools:** MLflow, Gradio
+- **Environment:** Jupyter Notebook, Git
 
 ## Context:
 
@@ -69,3 +80,12 @@ This project uses a virtual environment to manage dependencies.
     ```
 
 ---
+
+## How to Run the Project
+
+Follow these steps to set up the environment and run the project.
+
+### Step 1: Clone the Repository
+```bash
+git clone <your-repository-url>
+cd US-Visa-Prediction-Project
