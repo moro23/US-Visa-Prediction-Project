@@ -39,15 +39,33 @@ This project is done as a part of [Project of the Week at DataTalks.Club](https:
 
 Dataset: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 
-## Environment Configure 
-- Installing virtual Env
-    - pip install pipenv 
+## ⚙️ Environment Configuration
 
-- Installing Packages
-    - pipenv install jupyter notebook pandas numpy matplotlib seaborn scikit-learn xgboost 
+This project uses a virtual environment to manage dependencies.
 
-- Starting Virtual Env
-    - pipenv shell 
+1.  **Create a Virtual Environment:**
+    ```bash
+    python3 -m venv venv
+    ```
 
-- Starting Notebook
-    - jupyter-notebook
+2.  **Activate the Virtual Environment:**
+    - On macOS/Linux:
+      ```bash
+      source venv/bin/activate
+      ```
+    - On Windows:
+      ```bash
+      .\venv\Scripts\activate
+      ```
+
+3.  **Install Required Packages:**
+    You can install the packages using pip and the `requirements.txt` file. Make sure you have `pip` available in your environment.
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *Note: If you don't have a `requirements.txt` file, you can create one with `pip freeze > requirements.txt` after installing the packages below manually.*
+    ```bash
+    pip install jupyter notebook pandas pyarrow numpy matplotlib seaborn scikit-learn xgboost gradio
+    ```
+
+---
