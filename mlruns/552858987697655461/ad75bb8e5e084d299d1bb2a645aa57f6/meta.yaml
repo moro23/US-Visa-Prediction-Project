@@ -1,0 +1,14 @@
+artifact_uri: file:///home/moro/Documents/ml_projects/US-Visa-Prediction-Project/mlruns/552858987697655461/ad75bb8e5e084d299d1bb2a645aa57f6/artifacts
+end_time: 1753007969571
+entry_point_name: ''
+experiment_id: '552858987697655461'
+lifecycle_stage: active
+run_id: ad75bb8e5e084d299d1bb2a645aa57f6
+run_name: monumental-bird-577
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753007968852
+status: 4
+tags: []
+user_id: moro

@@ -1,0 +1,22 @@
+artifact_path: file:///home/moro/Documents/ml_projects/US-Visa-Prediction-Project/mlruns/552858987697655461/models/m-57242a8ce4114b988e83b1901e96093a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.1.1
+model_id: m-57242a8ce4114b988e83b1901e96093a
+model_size_bytes: 954
+model_uuid: m-57242a8ce4114b988e83b1901e96093a
+prompts: null
+run_id: f26ba603840e4fc5a9d33130e5c837d2
+utc_time_created: '2025-07-20 10:41:20.161878'

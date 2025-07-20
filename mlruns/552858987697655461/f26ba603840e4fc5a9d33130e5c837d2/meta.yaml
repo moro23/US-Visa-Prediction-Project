@@ -1,0 +1,14 @@
+artifact_uri: file:///home/moro/Documents/ml_projects/US-Visa-Prediction-Project/mlruns/552858987697655461/f26ba603840e4fc5a9d33130e5c837d2/artifacts
+end_time: 1753008083071
+entry_point_name: ''
+experiment_id: '552858987697655461'
+lifecycle_stage: active
+run_id: f26ba603840e4fc5a9d33130e5c837d2
+run_name: merciful-midge-665
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753008080062
+status: 3
+tags: []
+user_id: moro
